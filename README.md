@@ -14,7 +14,7 @@ Script para la automatización de la instalación y del inicio automático de we
 
     nano scope/start_scope.service
 
-- Verificar que la ip sea la correcta, por defecto es la 10.30.0.84
+- Verificar que la ip sea la correcta, por defecto es la 10.30.0.200
 
 ### Habilitar el inicio automático
 
@@ -24,5 +24,5 @@ Script para la automatización de la instalación y del inicio automático de we
 
 ### Iniciar Weavescope
 
-    sudo sh scope/start_scope.sh 10.30.0.84
+    sudo sh scope/start_scope.sh 10.30.0.200
 
