@@ -18,7 +18,7 @@ Script para la automatización de la instalación y del inicio automático de we
 
 ### Habilitar el inicio automático
 
-    cp ./start_scope.service /etc/systemd/system/start_scope.service
+    sudo cp scope/start_scope.service /etc/systemd/system/start_scope.service
 
     sudo systemctl enable start_scope.service
 
