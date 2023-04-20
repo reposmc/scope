@@ -21,6 +21,8 @@ Script para la automatización de la instalación y del inicio automático de we
     sudo cp scope/start_scope.service /etc/systemd/system/start_scope.service
 
     sudo systemctl enable start_scope.service
+    
+    sudo systemctl daemon-reload
 
 ### Iniciar Weavescope
 
