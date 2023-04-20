@@ -2,7 +2,7 @@
 Description=Start Weave Scope on boot
 
 [Service]
-ExecStart=/home/administrador/scope/start_scope.sh
+ExecStart=/home/administrador/scope/start_scope.sh 10.30.0.200
 
 [Install]
 WantedBy=multi-user.target
