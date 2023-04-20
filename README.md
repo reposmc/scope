@@ -8,7 +8,7 @@ Script para la automatización de la instalación y del inicio automático de we
 
 ### Clonar el repositorio
 
-    https://github.com/reposmc/scope.git
+    git clone https://github.com/reposmc/scope.git
 
 ### Configurar el archivo del servicio
 
