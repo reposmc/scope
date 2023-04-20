@@ -1,0 +1,8 @@
+[Unit]
+Description=Start Weave Scope on boot
+
+[Service]
+ExecStart=/home/administrador/start_scope.sh
+
+[Install]
+WantedBy=multi-user.target
