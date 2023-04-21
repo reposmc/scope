@@ -17,6 +17,8 @@ Script para la automatización de la instalación y del inicio automático de we
 - Verificar que la ip sea la correcta, por defecto es la 10.30.0.200
 
 ### Habilitar el inicio automático
+    
+    sudo chmod -R 777 scope
 
     sudo cp scope/start_scope.service /etc/systemd/system/start_scope.service
 
